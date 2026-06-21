@@ -3,12 +3,12 @@
    Edite as variáveis abaixo para mudar as cores rapidamente
    ========================================================= */
 :root {
-  --color-bg: #ffffff;
-  --color-text: #2b2b2b;
-  --color-muted: #6b6b6b;
-  --color-accent: #0a1f44;
-  --color-accent-light: #e7eaf2;
-  --color-border: #e2e2e2;
+  --color-bg: #0d1b2a;
+  --color-text: #e8ecf1;
+  --color-muted: #9aa5b1;
+  --color-accent: #5da9e9;
+  --color-accent-light: #1b2f47;
+  --color-border: #243447;
   --max-width: 860px;
   --font-serif: "Georgia", "Times New Roman", serif;
   --font-sans: "Helvetica Neue", Arial, sans-serif;
@@ -128,7 +128,7 @@ h2 {
   font-family: var(--font-serif);
   font-size: 1.5rem;
   margin-top: 2.2em;
-  border-bottom: 2px solid var(--color-accent-light);
+  border-bottom: 2px solid rgba(93, 169, 233, 0.3);
   padding-bottom: 6px;
 }
 
