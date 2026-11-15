@@ -13,4 +13,8 @@ article.project h2 { border: 0 !important; margin-bottom: 0.5rem; padding-bottom
 #footer .split.contact { width: 100%; }
 #nav ul.links li a { padding: 0 1.25rem; }
 #main > .post h3 { font-size: 1.1rem; margin-top: 2rem; }
-ul.actions li a.button { white-space: normal; height: auto; line-height: 1.5; padding-top: 0.9rem; padding-bottom: 0.9rem; }
+ul.actions { flex-wrap: wrap; row-gap: 1rem; }
+ul.actions li a.button.wrap { white-space: normal; height: auto; line-height: 1.5; padding-top: 0.9rem; padding-bottom: 0.9rem; }
+/* Selo PT/EN nos dois ícones do YouTube */
+a.icon.lang { position: relative; margin-right: 0.9rem; }
+a.icon.lang::after { content: attr(data-lang); position: absolute; right: -0.55rem; bottom: 0.35rem; font-family: "Source Sans Pro", Helvetica, sans-serif; font-size: 0.55rem; font-weight: 900; letter-spacing: 0.05em; line-height: 1; padding: 0.12rem 0.2rem; border-radius: 0.2rem; background: #18bfef; color: #ffffff; }
