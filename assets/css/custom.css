@@ -7,8 +7,13 @@
 .portrait img { width: 14rem; height: 14rem; max-width: 60%; object-fit: cover; border-radius: 100%; border: 2px solid #212931; }
 ol.pubs li { margin-bottom: 1rem; padding-left: 0.5rem; }
 p.note, p.meta { font-size: 0.9rem; color: #909498; }
-article.project { margin-bottom: 3rem; }
-article.project h2 { border: 0 !important; margin-bottom: 0.5rem; padding-bottom: 0 !important; }
+article.project { display: flex; gap: 2rem; align-items: flex-start; margin-bottom: 3rem; }
+article.project .logo { flex: 0 0 9rem; }
+article.project .logo img { width: 100%; height: auto; display: block; }
+article.project .text { flex: 1; min-width: 0; }
+article.project .text h3 { margin-top: 0 !important; font-size: 1rem; line-height: 1.6; }
+article.project .text p { text-align: justify; }
+@media screen and (max-width: 736px) { article.project { flex-direction: column; gap: 1rem; } article.project .logo { flex: none; width: 7rem; } }
 .map iframe { width: 100%; height: 22rem; border: 0; }
 #footer .split.contact { width: 100%; }
 #nav ul.links li a { padding: 0 1.25rem; }
